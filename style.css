@@ -1,0 +1,88 @@
+/* Body Styling */
+body {
+    font-family: 'Georgia', serif; /* Using a serif font for a classic book-like feel */
+    background-color: #f0f0f5; /* Light greyish-blue background to keep things gentle on the eyes */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Navigation Styling */
+header {
+    background-color: #4b0082; /* Dark purple to match the fantasy theme */
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Headings */
+h1 {
+    color: #4b0082; /* Matching the dark purple of the header */
+    text-align: center;
+    font-size: 36px;
+}
+
+h2 {
+    color: #8b0000; /* Dark red for subheadings */
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Paragraph and Text Styling */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+    margin: 20px 15px;
+}
+
+/* Image Styling */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* List Styling */
+ul {
+    list-style-type: square;
+    margin: 20px;
+    padding-left: 40px;
+}
+
+li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #4b0082;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #ffdd57; /* A golden yellow color for the links in the footer */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
